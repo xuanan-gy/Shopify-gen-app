@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page collections all'
+'step 1: Navigate to Page account register'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page collections all'
+'step 2: Add visual checkpoint at Page account register'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Successful Navigation to All Collections Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify successful navigation to Account Registration page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

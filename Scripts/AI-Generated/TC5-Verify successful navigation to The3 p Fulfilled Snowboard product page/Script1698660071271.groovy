@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page products the-3p-fulfilled-snowboard'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Successful Navigation to Snowboard Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify successful navigation to The3 p Fulfilled Snowboard product page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
