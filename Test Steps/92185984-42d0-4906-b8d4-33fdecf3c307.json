@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page account login",
+        "step 2: At Page account login click on hyperlink headermenu home --> navigate to Page home",
+        "step 3: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax",
+        "step 4: Add visual checkpoint at Page products selling-plans-ski-wax"
+    ]
+}
