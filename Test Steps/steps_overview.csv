@@ -3,3 +3,13 @@ Flow ID,Description,Test Steps,Flow Priority
 step 2: At Page account login click on hyperlink headermenu home --> navigate to Page home
 step 3: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
 step 4: Add visual checkpoint at Page products selling-plans-ski-wax",High
+2,Verify Successful Adding of Product to Cart on Ski Wax Selling Plans Page,"step 1: Navigate to Page products selling-plans-ski-wax
+step 2: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 3: At Page products selling-plans-ski-wax click on div cart notification
+step 4: Add visual checkpoint at Page products selling-plans-ski-wax",Trivial
+5,Verify Successful Navigation to Account Registration Page,"step 1: Navigate to Page account register
+step 2: Add visual checkpoint at Page account register",Trivial
+4,Verify Successful Navigation to Snowboard Product Page,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
+step 2: Add visual checkpoint at Page products the-3p-fulfilled-snowboard",Trivial
+3,Verify Successful Navigation to All Collections Page,"step 1: Navigate to Page collections all
+step 2: Add visual checkpoint at Page collections all",Trivial
