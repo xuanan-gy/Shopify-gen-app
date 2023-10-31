@@ -1,7 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page home",
-        "step 2: At Page home click on hyperlink account login --> navigate to Page account login",
-        "step 3: Add visual checkpoint at Page account login"
-    ]
-}

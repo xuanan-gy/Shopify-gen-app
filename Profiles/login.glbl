@@ -2,20 +2,20 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>''lakhongpo@gmail.com''</initValue>
+        <initValue>'lakhongpo@gmail.com'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>''khanh123''</initValue>
+        <initValue>'khanh123'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>''https://774860-3.myshopify.com/account/login''</initValue>
+        <initValue>'https://774860-3.myshopify.com/account/login'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
     <name>login</name>
     <tag></tag>
