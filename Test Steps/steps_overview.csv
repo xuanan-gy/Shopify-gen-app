@@ -1,22 +1,7 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Ski Wax Selling Plan is accessible from the Home Page,"step 1: Navigate to Page account login
-step 2: At Page account login click on hyperlink --> navigate to Page home
-step 3: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
-step 4: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
-step 5: At Page products selling-plans-ski-wax click on div cart notification
-step 6: Add visual checkpoint at Page products selling-plans-ski-wax",High
-3,Verify Login Page is accessible from the All Collections Page,"step 1: Navigate to Page collections all
-step 2: At Page collections all click on hyperlink account login --> navigate to Page account login
-step 3: Add visual checkpoint at Page account login",Low
-1,Verify Contact Page is accessible from the Header Menu,"step 1: Navigate to Page account login
-step 2: At Page account login click on hyperlink headermenu contact --> navigate to Page pages contact
-step 3: Add visual checkpoint at Page pages contact",Low
-7,Verify Ski Wax Selling Plan is accessible from the Login Page,"step 1: Navigate to Page account login products selling-plans-ski-wax
-step 2: Add visual checkpoint at Page account login products selling-plans-ski-wax",Trivial
-4,Verify All Collections Page is accessible from the Catalog Page,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
-step 2: At Page products the-3p-fulfilled-snowboard click on hyperlink headermenu catalog --> navigate to Page collections all
-step 3: Add visual checkpoint at Page collections all",Trivial
-5,Verify Register Page is accessible,"step 1: Navigate to Page account register
-step 2: Add visual checkpoint at Page account register",Trivial
-6,Verify Login Page is accessible,"step 1: Navigate to Page account login account login
-step 2: Add visual checkpoint at Page account login account login",Trivial
+3,Verify successful navigation to All Collections page,"step 1: Navigate to Page collections all
+step 2: Add visual checkpoint at Page collections all",High
+2,Verify successful navigation to Ski Wax Selling Plans page,"step 1: Navigate to Page products selling-plans-ski-wax
+step 2: Add visual checkpoint at Page products selling-plans-ski-wax",High
+1,Verify successful navigation to Home page,"step 1: Navigate to Page home
+step 2: Add visual checkpoint at Page home",High

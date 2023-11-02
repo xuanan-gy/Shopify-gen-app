@@ -12,11 +12,11 @@
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://774860-3.myshopify.com/account/login'</initValue>
+        <initValue>'https://774860-3.myshopify.com'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>login</name>
+    <name>prod</name>
     <tag></tag>
 </GlobalVariableEntities>

@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page account register'
+'step 1: Navigate to Page products selling-plans-ski-wax'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page account register'
+'step 2: Add visual checkpoint at Page products selling-plans-ski-wax'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Register Page is accessible_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify successful navigation to Ski Wax Selling Plans page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

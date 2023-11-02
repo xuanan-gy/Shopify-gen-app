@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page account login account login'
+'step 1: Navigate to Page home'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page account login account login'
+'step 2: Add visual checkpoint at Page home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Login Page is accessible_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify successful navigation to Home page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
