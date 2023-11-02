@@ -1,7 +1,17 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify successful navigation to All Collections page,"step 1: Navigate to Page collections all
-step 2: Add visual checkpoint at Page collections all",High
-2,Verify successful navigation to Ski Wax Selling Plans page,"step 1: Navigate to Page products selling-plans-ski-wax
-step 2: Add visual checkpoint at Page products selling-plans-ski-wax",High
-1,Verify successful navigation to Home page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",High
+2,Verify Navigating to Contact Page from Snowboard Product Details,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
+step 2: At Page products the-3p-fulfilled-snowboard click on product productinfo template 14867108462697 main
+step 3: At Page products the-3p-fulfilled-snowboard click on hyperlink account login --> navigate to Page account login
+step 4: At Page account login click on hyperlink headermenu contact --> navigate to Page pages contact
+step 5: Add visual checkpoint at Page pages contact",High
+1,Verify Adding Multiple Ski Wax Products to Cart,"step 1: Navigate to Page products selling-plans-ski-wax
+step 2: At Page products selling-plans-ski-wax click on button plus
+step 3: At Page products selling-plans-ski-wax click on button plus
+step 4: At Page products selling-plans-ski-wax click on button plus
+step 5: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 6: At Page products selling-plans-ski-wax click on div cart notification
+step 7: Add visual checkpoint at Page products selling-plans-ski-wax",Medium
+4,Verify Navigating to Collections Page,"step 1: Navigate to Page collections all
+step 2: Add visual checkpoint at Page collections all",Low
+3,Verify Navigating to Home Page,"step 1: Navigate to Page home
+step 2: Add visual checkpoint at Page home",Low

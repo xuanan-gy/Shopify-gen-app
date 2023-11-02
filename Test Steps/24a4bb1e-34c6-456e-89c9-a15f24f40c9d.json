@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page products the-3p-fulfilled-snowboard",
+        "step 2: At Page products the-3p-fulfilled-snowboard click on product productinfo template 14867108462697 main",
+        "step 3: At Page products the-3p-fulfilled-snowboard click on hyperlink account login --> navigate to Page account login",
+        "step 4: At Page account login click on hyperlink headermenu contact --> navigate to Page pages contact",
+        "step 5: Add visual checkpoint at Page pages contact"
+    ]
+}
