@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page collections all'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigating to Collections Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigating to All Collections Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
