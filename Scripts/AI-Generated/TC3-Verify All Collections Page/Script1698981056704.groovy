@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page collections all'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigating to All Collections Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify All Collections Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

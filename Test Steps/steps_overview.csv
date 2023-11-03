@@ -1,17 +1,13 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Adding Multiple Ski Wax Products to Cart,"step 1: Navigate to Page products selling-plans-ski-wax
-step 2: At Page products selling-plans-ski-wax click on button plus
+1,Verify Product Selection and Submission on Ski Wax Selling Plans Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
 step 3: At Page products selling-plans-ski-wax click on button plus
 step 4: At Page products selling-plans-ski-wax click on button plus
-step 5: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
-step 6: At Page products selling-plans-ski-wax click on div cart notification
-step 7: Add visual checkpoint at Page products selling-plans-ski-wax",High
-5,Verify Navigating to Contact Page,"step 1: Navigate to Page pages contact
-step 2: Add visual checkpoint at Page pages contact",Medium
-2,Verify Viewing Snowboard Product Details,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
-step 2: At Page products the-3p-fulfilled-snowboard click on product productinfo template 14867108462697 main
-step 3: Add visual checkpoint at Page products the-3p-fulfilled-snowboard",Medium
-3,Verify Navigating to Home Page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",Medium
-4,Verify Navigating to All Collections Page,"step 1: Navigate to Page collections all
-step 2: Add visual checkpoint at Page collections all",Medium
+step 5: At Page products selling-plans-ski-wax click on button plus
+step 6: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 7: At Page products selling-plans-ski-wax click on p object
+step 8: Add visual checkpoint at Page products selling-plans-ski-wax",High
+3,Verify All Collections Page,"step 1: Navigate to Page collections all
+step 2: Add visual checkpoint at Page collections all",Low
+2,Verify Product Page for3 P Fulfilled Snowboard,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
+step 2: Add visual checkpoint at Page products the-3p-fulfilled-snowboard",Low
