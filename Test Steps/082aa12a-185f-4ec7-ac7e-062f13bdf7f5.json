@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on header object",
+        "step 3: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all",
+        "step 4: At Page collections all select on select sortby",
+        "step 5: At Page collections all click on div facetswrapperdesktop",
+        "step 6: Add visual checkpoint at Page collections all"
+    ]
+}

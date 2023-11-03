@@ -1,13 +1,10 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Product Selection and Submission on Ski Wax Selling Plans Page,"step 1: Navigate to Page home
+1,Verify Successful Navigation to Ski Wax Selling Plans in Products Section,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
-step 3: At Page products selling-plans-ski-wax click on button plus
-step 4: At Page products selling-plans-ski-wax click on button plus
-step 5: At Page products selling-plans-ski-wax click on button plus
-step 6: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
-step 7: At Page products selling-plans-ski-wax click on p object
-step 8: Add visual checkpoint at Page products selling-plans-ski-wax",High
-3,Verify All Collections Page,"step 1: Navigate to Page collections all
-step 2: Add visual checkpoint at Page collections all",Low
-2,Verify Product Page for3 P Fulfilled Snowboard,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
-step 2: Add visual checkpoint at Page products the-3p-fulfilled-snowboard",Low
+step 3: Add visual checkpoint at Page products selling-plans-ski-wax",High
+2,Verify Successful Navigation to All Collections in Catalog Section,"step 1: Navigate to Page home
+step 2: At Page home click on header object
+step 3: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all
+step 4: At Page collections all select on select sortby
+step 5: At Page collections all click on div facetswrapperdesktop
+step 6: Add visual checkpoint at Page collections all",High
