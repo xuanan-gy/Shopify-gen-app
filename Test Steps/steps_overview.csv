@@ -1,10 +1,13 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Successful Navigation to Ski Wax Selling Plans in Products Section,"step 1: Navigate to Page home
+2,Verify Cart Page after Adding Product to Cart,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
-step 3: Add visual checkpoint at Page products selling-plans-ski-wax",High
-2,Verify Successful Navigation to All Collections in Catalog Section,"step 1: Navigate to Page home
+step 3: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 4: At Page products selling-plans-ski-wax click on div cart notification
+step 5: At Page products selling-plans-ski-wax click on hyperlink cart notification button --> navigate to Page cart
+step 6: Add visual checkpoint at Page cart",High
+1,Verify All Collections Page after Navigating from Home,"step 1: Navigate to Page home
 step 2: At Page home click on header object
 step 3: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all
-step 4: At Page collections all select on select sortby
-step 5: At Page collections all click on div facetswrapperdesktop
-step 6: Add visual checkpoint at Page collections all",High
+step 4: Add visual checkpoint at Page collections all",Medium
+3,Verify Snowboard Product Page with Compare At Price,"step 1: Navigate to Page products the-compare-at-price-snowboard
+step 2: Add visual checkpoint at Page products the-compare-at-price-snowboard",Trivial
