@@ -1,12 +1,7 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Successful Navigation to Selling Plans for Ski Wax on Collections Page,"step 1: Navigate to Page cart
-step 2: At Page cart click on hyperlink collections all --> navigate to Page collections all
+1,Verify Navigation to Ski Wax Selling Plans from Catalog,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all
 step 3: At Page collections all click on hyperlink cardlink template 14867108233321 produ --> navigate to Page products selling-plans-ski-wax
 step 4: Add visual checkpoint at Page products selling-plans-ski-wax",High
-3,Verify Successful Navigation to Contact Page from Catalog Menu,"step 1: Navigate to Page cart
-step 2: At Page cart click on hyperlink collections all --> navigate to Page collections all
-step 3: At Page collections all click on hyperlink headermenu catalog
-step 4: At Page collections all click on hyperlink headermenu contact --> navigate to Page pages contact
-step 5: Add visual checkpoint at Page pages contact",High
-1,Verify Successful Navigation to Home Page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",Low
+2,Verify Navigation to Cart Page,"step 1: Navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Low

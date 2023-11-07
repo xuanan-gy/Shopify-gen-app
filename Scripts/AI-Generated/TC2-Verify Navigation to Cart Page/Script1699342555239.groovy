@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page home'
+'step 1: Navigate to Page cart'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page home'
+'step 2: Add visual checkpoint at Page cart'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation to Cart Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
