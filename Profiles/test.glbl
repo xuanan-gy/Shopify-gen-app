@@ -15,8 +15,8 @@
         <initValue>'https://774860-3.myshopify.com'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>prod</name>
+    <name>test</name>
     <tag></tag>
 </GlobalVariableEntities>

@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page products the-compare-at-price-snowboard'
+'step 1: Navigate to Page home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-'step 2: Add visual checkpoint at Page products the-compare-at-price-snowboard'
+'step 2: Add visual checkpoint at Page home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Snowboard Product Page with Compare At Price_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
