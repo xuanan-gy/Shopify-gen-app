@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,23 +29,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: At Page collections all click on hyperlink cardlink template 14867108233321 produ --> navigate to Page products selling-plans-ski-wax'
+'step 3: Add visual checkpoint at Page collections all'
 
-testObj = findTestObject('Object Repository/Page_collections_all/hyperlink_cardlink_template_14867108233321_produ')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*/collections/all(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(testObj)
-
-'step 4: Add visual checkpoint at Page products selling-plans-ski-wax'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to Ski Wax Selling Plans from Catalog_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify All Collections Page from Header Menu Catalog_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

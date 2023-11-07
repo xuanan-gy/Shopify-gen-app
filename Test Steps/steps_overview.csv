@@ -1,7 +1,16 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Navigation to Ski Wax Selling Plans from Catalog,"step 1: Navigate to Page home
+3,Verify Cart Page after Adding Products from Selling Plans Ski Wax Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
+step 3: At Page products selling-plans-ski-wax click on button plus
+step 4: At Page products selling-plans-ski-wax click on button plus
+step 5: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 6: At Page products selling-plans-ski-wax click on div cart notification
+step 7: At Page products selling-plans-ski-wax click on hyperlink cart notification button --> navigate to Page cart
+step 8: Add visual checkpoint at Page cart",High
+2,Verify Challenge Page after Login from Account Login Page,"step 1: Navigate to Page home
+step 2: Do view at Page home --> navigate to Page account login
+step 3: Login at Page account login --> navigate to Page challenge
+step 4: Add visual checkpoint at Page challenge",High
+1,Verify All Collections Page from Header Menu Catalog,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all
-step 3: At Page collections all click on hyperlink cardlink template 14867108233321 produ --> navigate to Page products selling-plans-ski-wax
-step 4: Add visual checkpoint at Page products selling-plans-ski-wax",High
-2,Verify Navigation to Cart Page,"step 1: Navigate to Page cart
-step 2: Add visual checkpoint at Page cart",Low
+step 3: Add visual checkpoint at Page collections all",Medium
