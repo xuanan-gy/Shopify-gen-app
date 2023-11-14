@@ -1,7 +1,7 @@
-import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,9 +29,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: At Page products selling-plans-ski-wax click on button plus'
+'step 3: At Page products selling-plans-ski-wax click on input template 14867108462697 main 1 1'
 
-testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/button_plus')
+testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/input_template_14867108462697_main_1_1')
 
 WebUI.delay(3)
 
@@ -57,7 +57,21 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\
 
 WebUI.enhancedClick(testObj)
 
-'step 5: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269'
+'step 5: At Page products selling-plans-ski-wax click on button plus'
+
+testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/button_plus')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 6: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269'
 
 testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/button_productsubmitbutton_template_1486710846269')
 
@@ -71,7 +85,35 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\
 
 WebUI.setText(testObj, var_1_button_productsubmitbutton_template_1486710846269)
 
-'step 6: At Page products selling-plans-ski-wax click on div cart notification'
+'step 7: At Page products selling-plans-ski-wax click on dd object'
+
+testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/dd_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 8: At Page products selling-plans-ski-wax click on dd object'
+
+testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/dd_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 9: At Page products selling-plans-ski-wax click on div cart notification'
 
 testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/div_cart_notification')
 
@@ -85,23 +127,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\
 
 WebUI.enhancedClick(testObj)
 
-'step 7: At Page products selling-plans-ski-wax click on hyperlink cart notification button --> navigate to Page cart'
+'step 10: Add visual checkpoint at Page products selling-plans-ski-wax'
 
-testObj = findTestObject('Object Repository/Page_products_selling-plans-ski-wax/hyperlink_cart_notification_button')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*/products/selling-plans-ski-wax(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(testObj)
-
-'step 8: Add visual checkpoint at Page cart'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Cart Page after Adding Products from Selling Plans Ski Wax Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Adding Multiple Products to Ski Wax Selling Plan_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

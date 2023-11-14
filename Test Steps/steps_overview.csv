@@ -1,16 +1,26 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Cart Page after Adding Products from Selling Plans Ski Wax Page,"step 1: Navigate to Page home
+3,Verify Adding Product to Cart and Navigating to Cart Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products the-compare-at-price-snowboard
+step 3: At Page products the-compare-at-price-snowboard click on button plus
+step 4: At Page products the-compare-at-price-snowboard input on button productsubmitbutton template 1486710846269
+step 5: At Page products the-compare-at-price-snowboard click on div object
+step 6: At Page products the-compare-at-price-snowboard click on div object
+step 7: At Page products the-compare-at-price-snowboard click on div cart notification
+step 8: At Page products the-compare-at-price-snowboard click on hyperlink cart notification button --> navigate to Page cart
+step 9: Add visual checkpoint at Page cart",High
+1,Verify Successful Login to Account with Valid Credentials,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink account login --> navigate to Page account login
+step 3: At Page account login input on input customeremail
+step 4: At Page account login input on input customerpassword
+step 5: At Page account login click on button object
+step 6: Add visual checkpoint at Page account login",High
+2,Verify Adding Multiple Products to Ski Wax Selling Plan,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
-step 3: At Page products selling-plans-ski-wax click on button plus
+step 3: At Page products selling-plans-ski-wax click on input template 14867108462697 main 1 1
 step 4: At Page products selling-plans-ski-wax click on button plus
-step 5: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
-step 6: At Page products selling-plans-ski-wax click on div cart notification
-step 7: At Page products selling-plans-ski-wax click on hyperlink cart notification button --> navigate to Page cart
-step 8: Add visual checkpoint at Page cart",High
-2,Verify Challenge Page after Login from Account Login Page,"step 1: Navigate to Page home
-step 2: Do view at Page home --> navigate to Page account login
-step 3: Login at Page account login --> navigate to Page challenge
-step 4: Add visual checkpoint at Page challenge",High
-1,Verify All Collections Page from Header Menu Catalog,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink headermenu catalog --> navigate to Page collections all
-step 3: Add visual checkpoint at Page collections all",Medium
+step 5: At Page products selling-plans-ski-wax click on button plus
+step 6: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
+step 7: At Page products selling-plans-ski-wax click on dd object
+step 8: At Page products selling-plans-ski-wax click on dd object
+step 9: At Page products selling-plans-ski-wax click on div cart notification
+step 10: Add visual checkpoint at Page products selling-plans-ski-wax",High

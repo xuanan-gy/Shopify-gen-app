@@ -1,8 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page home",
-        "step 2: Do view at Page home --> navigate to Page account login",
-        "step 3: Login at Page account login --> navigate to Page challenge",
-        "step 4: Add visual checkpoint at Page challenge"
-    ]
-}
