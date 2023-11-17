@@ -1,26 +1,28 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Adding Product to Cart and Navigating to Cart Page,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products the-compare-at-price-snowboard
-step 3: At Page products the-compare-at-price-snowboard click on button plus
-step 4: At Page products the-compare-at-price-snowboard input on button productsubmitbutton template 1486710846269
-step 5: At Page products the-compare-at-price-snowboard click on div object
-step 6: At Page products the-compare-at-price-snowboard click on div object
-step 7: At Page products the-compare-at-price-snowboard click on div cart notification
-step 8: At Page products the-compare-at-price-snowboard click on hyperlink cart notification button --> navigate to Page cart
-step 9: Add visual checkpoint at Page cart",High
-1,Verify Successful Login to Account with Valid Credentials,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink account login --> navigate to Page account login
-step 3: At Page account login input on input customeremail
-step 4: At Page account login input on input customerpassword
-step 5: At Page account login click on button object
-step 6: Add visual checkpoint at Page account login",High
-2,Verify Adding Multiple Products to Ski Wax Selling Plan,"step 1: Navigate to Page home
+2,Verify Page Account Login,"step 1: Navigate to Page account login
+step 2: Login at Page account login
+step 3: Add visual checkpoint at Page account login",High
+1,Verify Page Products Selling Plans Ski Wax,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink cardlink template 14867108397161 featu --> navigate to Page products selling-plans-ski-wax
-step 3: At Page products selling-plans-ski-wax click on input template 14867108462697 main 1 1
-step 4: At Page products selling-plans-ski-wax click on button plus
-step 5: At Page products selling-plans-ski-wax click on button plus
-step 6: At Page products selling-plans-ski-wax input on button productsubmitbutton template 1486710846269
-step 7: At Page products selling-plans-ski-wax click on dd object
-step 8: At Page products selling-plans-ski-wax click on dd object
-step 9: At Page products selling-plans-ski-wax click on div cart notification
-step 10: Add visual checkpoint at Page products selling-plans-ski-wax",High
+step 3: Add visual checkpoint at Page products selling-plans-ski-wax",High
+3,Verify Page Products The3 p Fulfilled Snowboard,"step 1: Navigate to Page products the-3p-fulfilled-snowboard
+step 2: At Page products the-3p-fulfilled-snowboard click on button plus
+step 3: At Page products the-3p-fulfilled-snowboard input on button productsubmitbutton template 1486710846269
+step 4: At Page products the-3p-fulfilled-snowboard click on div cart notification product
+step 5: At Page products the-3p-fulfilled-snowboard click on div cart notification product
+step 6: At Page products the-3p-fulfilled-snowboard click on div cart notification
+step 7: Add visual checkpoint at Page products the-3p-fulfilled-snowboard",Low
+6,Verify Page Admin Bar Login,"step 1: Navigate to Page admin bar login
+step 2: Add visual checkpoint at Page admin bar login",Low
+5,Verify Page Products The Complete Snowboard,"step 1: Navigate to Page products the-complete-snowboard
+step 2: At Page products the-complete-snowboard input on button productsubmitbutton template 1486710846269
+step 3: At Page products the-complete-snowboard click on div object
+step 4: At Page products the-complete-snowboard click on div object
+step 5: At Page products the-complete-snowboard click on div cart notification
+step 6: Add visual checkpoint at Page products the-complete-snowboard",Trivial
+4,Verify Page Products The Collection Snowboard Hydrogen,"step 1: Navigate to Page products the-collection-snowboard-hydrogen
+step 2: At Page products the-collection-snowboard-hydrogen input on button productsubmitbutton template 1486710846269
+step 3: At Page products the-collection-snowboard-hydrogen click on div object
+step 4: At Page products the-collection-snowboard-hydrogen click on div object
+step 5: At Page products the-collection-snowboard-hydrogen click on div cart notification
+step 6: Add visual checkpoint at Page products the-collection-snowboard-hydrogen",Trivial
