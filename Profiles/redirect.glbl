@@ -2,21 +2,21 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'lakhongpo@gmail.com'</initValue>
+        <initValue>'hunghaidoi934@gmail.com'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'khanh123'</initValue>
+        <initValue>'123456adu'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://774860-3.myshopify.com'</initValue>
+        <initValue>'https://xuanan-gy.github.io'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>test</name>
+    <name>redirect</name>
     <tag></tag>
 </GlobalVariableEntities>
