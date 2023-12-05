@@ -1,17 +1,12 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Adding Item to Cart and Proceeding to Checkout Page,"step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t
-step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK
-step 3: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs backpack
-step 4: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on hyperlink object --> navigate to Page cart html
-step 5: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
-step 6: At Page checkout-step-one html input on input firstname
-step 7: At Page checkout-step-one html input on input lastname
-step 8: At Page checkout-step-one html input on input postalcode
-step 9: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
-step 10: Add visual checkpoint at Page checkout-step-two html",High
-1,Verify Successful Login and Navigation to Inventory Page with Specific Code,"step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t
-step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK
-step 3: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button react burger menu btn
-step 4: Add visual checkpoint at Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK",Medium
-3,Verify Successful Navigation to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
-step 2: Add visual checkpoint at Page checkout-complete html",Trivial
+1,Verify Successful Authorization on page T,"step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t
+step 2: Login at Page t --> navigate to Page 21bb1d3e-726c-4f84-9339-authorize
+step 3: Add visual checkpoint at Page 21bb1d3e-726c-4f84-9339-authorize",High
+3,Verify Successful Navigation to page Checkout Step Two Html,"step 1: Navigate to Page checkout-step-two html
+step 2: Add visual checkpoint at Page checkout-step-two html",High
+2,Verify Successful Checkout Completion on page Checkout Complete Html,"step 1: Navigate to Page checkout-complete html
+step 2: Add visual checkpoint at Page checkout-complete html",High
+4,Verify Successful Navigation to page Checkout Step One Html,"step 1: Navigate to Page checkout-step-one html
+step 2: Add visual checkpoint at Page checkout-step-one html",High
+5,Verify Successful Navigation to page Cart Html,"step 1: Navigate to Page cart html
+step 2: Add visual checkpoint at Page cart html",Medium
