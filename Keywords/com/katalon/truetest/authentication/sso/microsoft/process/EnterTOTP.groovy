@@ -12,7 +12,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 class EnterTOTP extends AuthenticationProcess{
-	private static int LIMIT = 10;
+	private static int LIMIT = 5;
 	private String secretKey;
 
 	public EnterTOTP(String secretKey) {

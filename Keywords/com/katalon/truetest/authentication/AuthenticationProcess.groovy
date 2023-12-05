@@ -1,7 +1,7 @@
 package com.katalon.truetest.authentication
 
 import com.kms.katalon.core.util.KeywordUtil
-
+import com.kms.katalon.core.exception.StepFailedException
 
 abstract class AuthenticationProcess implements StepProcess {
 	protected boolean isRequired = false;
@@ -22,7 +22,7 @@ abstract class AuthenticationProcess implements StepProcess {
 		KeywordUtil.logInfo("Execute step: ${this.name}, is required step: ${this.isRequired}")
 		def boolean result = stepProcess()
 		if (this.isRequired == true && result == false) {
-			throw StepFailedException("${this.name} failed to executed!")
+			throw new StepFailedException("${this.name} failed to executed!")
 		}
 	}
 }

@@ -20,31 +20,42 @@ import com.katalon.truetest.authentication.sso.microsoft.process.HandleOtherAuth
 import com.katalon.truetest.authentication.sso.microsoft.process.HandleOtherVerificationMethods
 
 class MicrosoftLoginProcess extends AuthenticationProcess {
+	private String username;
+	private String password;
+	private String secretKey;
+
 	public MicrosoftLoginProcess() {
 		this(true)
 	}
 
 	public MicrosoftLoginProcess(boolean isRequired) {
 		super("SSO Login with identity provider Microsoft", isRequired)
+		this.username = GlobalVariable.username;
+		this.password = GlobalVariable.password;
+		try {
+			this.secretKey = GlobalVariable.secret_key
+		}
+		catch (Exception e) {
+			this.secretKey = "secretkey"
+		}
 	}
 
 	// Default configuration values
 	def static final int MAIN_WINDOW_INDEX = 0
 	def static final int LOGIN_WINDOW_INDEX = 1
 
-	def processList = [
-		new FocusToLoginWindow("Focus to login window", LOGIN_WINDOW_INDEX),
-		new EnterEmail(GlobalVariable.username),
-		new HandleAuthenticator(),
-		new HandleOtherAuthMethods(),
-		new EnterPassword(GlobalVariable.password),
-		new HandleOtherVerificationMethods(),
-		new EnterTOTP(GlobalVariable.secret_key),
-		new ConfirmStaySignedIn("false"),
-		new FocusToLoginWindow("Focus to main AUT window", MAIN_WINDOW_INDEX)
-	]
-
 	boolean stepProcess() {
+		def processList = [
+			new FocusToLoginWindow("Focus to login window", LOGIN_WINDOW_INDEX),
+			new EnterEmail(this.username),
+			new HandleAuthenticator(),
+			new HandleOtherAuthMethods(),
+			new EnterPassword(this.password),
+			new HandleOtherVerificationMethods(),
+			new EnterTOTP(this.secretKey),
+			new ConfirmStaySignedIn("false"),
+			new FocusToLoginWindow("Focus to main AUT window", MAIN_WINDOW_INDEX)
+		]
 		for (process in processList) {
 			try {
 				process.execute()

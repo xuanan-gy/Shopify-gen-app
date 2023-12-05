@@ -1,6 +1,6 @@
-import com.katalon.truetest.authentication.LoginProcess as LoginProcess
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.katalon.truetest.authentication.LoginProcess as LoginProcess
 
 'Initialize test session: Open browser and set view port'
 
@@ -20,7 +20,7 @@ LoginProcess.ssoLoginWithMicrosoft()
 
 'step 3: Add visual checkpoint at Page 21bb1d3e-726c-4f84-9339-authorize'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Authorization on page T_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Authorization on page21 bb1 d3 e726 c4 f849339 Authorize_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
