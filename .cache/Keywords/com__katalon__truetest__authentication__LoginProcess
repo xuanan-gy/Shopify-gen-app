@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "73A70661037A4F7E81566C8C592AFCD9",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.truetest.authentication.LoginProcess",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

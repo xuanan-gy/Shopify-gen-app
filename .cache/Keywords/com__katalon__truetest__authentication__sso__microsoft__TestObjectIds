@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "54EBBDF11650F767AAE1C543641103C5",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.truetest.authentication.sso.microsoft.TestObjectIds",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

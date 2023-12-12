@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C2B95EDFA8F6531866F178A3C6618AA0",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.truetest.authentication.sso.microsoft.process.EnterTOTP",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

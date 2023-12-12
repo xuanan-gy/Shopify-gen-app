@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F4217778CD1E729533399588CF4D320D",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.truetest.authentication.sso.microsoft.process.FocusToLoginWindow",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

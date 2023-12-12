@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "28131F2CB29F04CD8B95895F4421CD8C",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.truetest.authentication.sso.microsoft.process.HandleOtherAuthMethods",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
