@@ -1,0 +1,12 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Investors Page after Search,Navigate to the home page and access the investors section. Select A16zAndreessenHorowitz and perform a search. Verify the investors page.,"step 1: Navigate to Page home
+step 2: At Page home, click on hyperlink investors vcs new > navigate to Page investors
+step 3: At Page investors, click on hyperlink a16z andreessen horowitz > navigate to Page investors polychain-capital
+step 4: At Page investors polychain-capital , click on button 2
+step 5: At Page investors polychain-capital , click on button search > navigate to Page investors
+step 6: Add visual checkpoint at Page investors",High
+2,Verify Polychain Capital Portfolio under A16z Andreessen Horowitz on Investors Page,Navigate to the home page and access the investors section. Select A16zAndreessenHorowitz and view the Polychain Capital portfolio. Verify the Polychain Capital portfolio page.,"step 1: Navigate to Page home
+step 2: At Page home, click on hyperlink investors vcs new > navigate to Page investors
+step 3: At Page investors, click on hyperlink a16z andreessen horowitz > navigate to Page investors polychain-capital
+step 4: At Page investors polychain-capital , click on hyperlink investor tabs item portfolio > navigate to Page investors polychain-capital portfolio
+step 5: Add visual checkpoint at Page investors polychain-capital portfolio",Trivial

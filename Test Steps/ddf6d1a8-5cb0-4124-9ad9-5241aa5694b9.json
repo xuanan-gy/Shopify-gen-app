@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink investors vcs new > navigate to Page investors",
+        "step 3: At Page investors, click on hyperlink a16z andreessen horowitz > navigate to Page investors polychain-capital",
+        "step 4: At Page investors polychain-capital , click on hyperlink investor tabs item portfolio > navigate to Page investors polychain-capital portfolio",
+        "step 5: Add visual checkpoint at Page investors polychain-capital portfolio"
+    ]
+}
