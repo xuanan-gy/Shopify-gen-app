@@ -1,0 +1,45 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Fundraising Page for Coin58832 on Altlayer,Navigate to the home page and access the Tron coin page. Proceed to the Altlayer fundraising page and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on button 'menu-trigger-stock market timeframe'
+step 3: Click on link 'TRX
+11
+TRON' -> Navigate to coins/tron
+step 4: Click on span
+step 5: Click on link 'Blockchain' -> Navigate to categories/blockchain
+step 6: Click on p
+step 7: Click on link 'Cryptocurrencies' -> Navigate to
+step 8: Click on link 'Investors & VCs
+New' -> Navigate to investors
+step 9: Click on button 'Search
+/'
+step 10: Enter input value in input field 'search'
+step 11: Click on link 'global-search-items-coin-58832' -> Navigate to coins/altlayer
+step 12: Click on link 'coin-tabs-item-fundraising' -> Navigate to coins/altlayer/fundraising
+step 13: Take full page screenshot as checkpoint",High
+2,Verify Binance Labs Page in Investors Section,Navigate to the home page and access the Tron coin page. Proceed to the Binance Labs page in the investors section and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on button 'menu-trigger-stock market timeframe'
+step 3: Click on link 'TRX
+11
+TRON' -> Navigate to coins/tron
+step 4: Click on span
+step 5: Click on link 'Blockchain' -> Navigate to categories/blockchain
+step 6: Click on p
+step 7: Click on link 'Cryptocurrencies' -> Navigate to
+step 8: Click on link 'Investors & VCs
+New' -> Navigate to investors
+step 9: Click on link 'Binance Labs' -> Navigate to investors/binance-labs
+step 10: Take full page screenshot as checkpoint",High
+3,Verify Andreessen Horowitz Page in Investors Section,Navigate to the home page and access the investors section. Select the A16z Andreessen Horowitz page and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link 'Investors & VCs
+New' -> Navigate to investors
+step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to investors/* && investors/polychain-capital
+step 4: Click on button '2'
+step 5: Click on button 'Search
+/' -> Navigate to investors/*
+step 6: Take full page screenshot as checkpoint",Low
+4,Verify Polychain Capital Portfolio Page in Investors Section,Navigate to the home page and access the investors section. Select the A16z Andreessen Horowitz page and proceed to the Polychain Capital portfolio page. Verify the displayed information.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link 'Investors & VCs
+New' -> Navigate to investors
+step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to investors/* && investors/polychain-capital
+step 4: Click on link 'investor-tabs-item-portfolio' -> Navigate to investors/polychain-capital/portfolio
+step 5: Take full page screenshot as checkpoint",Trivial

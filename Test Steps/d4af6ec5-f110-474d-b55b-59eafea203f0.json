@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to https://dropstab.com/",
+        "step 2: Click on link 'Investors & VCs\nNew' -> Navigate to investors",
+        "step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to investors/* && investors/polychain-capital",
+        "step 4: Click on link 'investor-tabs-item-portfolio' -> Navigate to investors/polychain-capital/portfolio",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}
