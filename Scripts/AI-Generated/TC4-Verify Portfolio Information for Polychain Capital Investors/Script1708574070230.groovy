@@ -1,7 +1,7 @@
+import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,8 +15,7 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-"Step 2: Click on link 'Investors & VCs
-New' -> Navigate to investors"
+"Step 2: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'"
 
 WebUI.takeScreenshot()
 
@@ -26,7 +25,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_investors_vcs_new'))
 
-"Step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to investors/* && investors/polychain-capital"
+"Step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to page 'investors/polychain-capital && investors/*'"
 
 WebUI.takeScreenshot()
 
@@ -36,30 +35,19 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investor
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors/hyperlink_a16z_andreessen_horowitz'))
 
-"Step 4: Click on button '2'"
+"Step 4: Click on link 'investor-tabs-item-portfolio' -> Navigate to page 'investors/polychain-capital/portfolio'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors_ /button_2'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors_polychain-capital /hyperlink_investor_tabs_item_portfolio'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors/.* && investors/polychain-capital?/?(?:#.*)?(?:\\?.*)?$', true)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors/polychain-capital && investors/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors_ /button_2'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors_polychain-capital /hyperlink_investor_tabs_item_portfolio'))
 
-"Step 5: Click on button 'Search
-/' -> Navigate to investors/*"
+"Step 5: Take full page screenshot as checkpoint"
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors_ /button_search'), 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors/.* && investors/polychain-capital?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors_ /button_search'))
-
-"Step 6: Take full page screenshot as checkpoint"
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Andreessen Horowitz Page in Investors Section_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Portfolio Information for Polychain Capital Investors_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

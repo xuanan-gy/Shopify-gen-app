@@ -1,7 +1,7 @@
+import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
 
@@ -25,9 +25,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_menu_trigger_stock_market_timeframe'))
 
-"Step 3: Click on link 'TRX
-11
-TRON' -> Navigate to coins/tron"
+"Step 3: Click on link 'TRX\n11\nTRON' -> Navigate to page 'coins/tron'"
 
 WebUI.takeScreenshot()
 
@@ -47,7 +45,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/coins/tr
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_coins_tron/span_object'))
 
-"Step 5: Click on link 'Blockchain' -> Navigate to categories/blockchain"
+"Step 5: Click on link 'Blockchain' -> Navigate to page 'categories/blockchain'"
 
 WebUI.takeScreenshot()
 
@@ -67,7 +65,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/categori
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_categories_blockchain/p_object'))
 
-"Step 7: Click on link 'Cryptocurrencies' -> Navigate to"
+"Step 7: Click on link 'Cryptocurrencies' -> Navigate to page ''"
 
 WebUI.takeScreenshot()
 
@@ -77,8 +75,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/categori
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_categories_blockchain/hyperlink_cryptocurrencies'))
 
-"Step 8: Click on link 'Investors & VCs
-New' -> Navigate to investors"
+"Step 8: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'"
 
 WebUI.takeScreenshot()
 
@@ -88,50 +85,19 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_investors_vcs_new'))
 
-"Step 9: Click on button 'Search
-/'"
+"Step 9: Click on link 'Binance Labs' -> Navigate to page 'investors/binance-labs'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors/button_search'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors/hyperlink_binance_labs'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors/button_search'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors/hyperlink_binance_labs'))
 
-"Step 10: Enter input value in input field 'search'"
+"Step 10: Take full page screenshot as checkpoint"
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors/input_search'), 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.setText(findTestObject('AI-Generated/Page_investors/input_search'), input_search)
-
-"Step 11: Click on link 'global-search-items-coin-58832' -> Navigate to coins/altlayer"
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_investors/hyperlink_global_search_items_coin_58832'), 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/investors?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_investors/hyperlink_global_search_items_coin_58832'))
-
-"Step 12: Click on link 'coin-tabs-item-fundraising' -> Navigate to coins/altlayer/fundraising"
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_coins_altlayer/hyperlink_coin_tabs_item_fundraising'), 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/coins/altlayer?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_coins_altlayer/hyperlink_coin_tabs_item_fundraising'))
-
-"Step 13: Take full page screenshot as checkpoint"
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Fundraising Page for Coin58832 on Altlayer_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Binance Labs Investors Information_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
