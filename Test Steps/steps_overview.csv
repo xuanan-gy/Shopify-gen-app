@@ -1,35 +1,18 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Fundraising Information for Altlayer Coin on Coin Tabs,Navigate to the home page and access the Altlayer coin page. Proceed to the fundraising section and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on button 'menu-trigger-stock market timeframe'
-step 3: Click on link 'TRX\n11\nTRON' -> Navigate to page 'coins/tron'
-step 4: Click on span
-step 5: Click on link 'Blockchain' -> Navigate to page 'categories/blockchain'
-step 6: Click on p
-step 7: Click on link 'Cryptocurrencies' -> Navigate to page ''
-step 8: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'
-step 9: Click on button 'Search\n/'
-step 10: Enter input value in input field 'search'
-step 11: Click on link 'global-search-items-coin-58832' -> Navigate to page 'coins/altlayer'
-step 12: Click on link 'coin-tabs-item-fundraising' -> Navigate to page 'coins/altlayer/fundraising'
+1,Verify Navigation and Functionality on Page Home,"Navigate to the home page and perform a series of actions including searching, customizing presets, and accessing different tabs. Verify the functionality of the top gainers tab.","step 1: Navigate to https://dropstab.com/
+step 2: Click on button 'Search\n/'
+step 3: Click on div
+step 4: Click on input field 'search'
+step 5: Enter input value in input field 'search'
+step 6: Click on div
+step 7: Click on link 'customize-presets-item-custom-YNUU7 plrV-kq fEVMpb8-324102'
+step 8: Click on div  -> Navigate to page 'tab/twitter'
+step 9: Click on link '\U0001fa82\nPotential Airdrop' -> Navigate to page 'tab/airdrops'
+step 10: Click on link '\U0001f680\nTop Gainers' -> Navigate to page 'tab/top-gainers'
+step 11: Click on button
+step 12: Click on button 'Currency\nEUR'
 step 13: Take full page screenshot as checkpoint",High
-2,Verify Binance Labs Investors Information,Navigate to the home page and access the investors section. Select Binance Labs from the list of investors and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on button 'menu-trigger-stock market timeframe'
-step 3: Click on link 'TRX\n11\nTRON' -> Navigate to page 'coins/tron'
-step 4: Click on span
-step 5: Click on link 'Blockchain' -> Navigate to page 'categories/blockchain'
-step 6: Click on p
-step 7: Click on link 'Cryptocurrencies' -> Navigate to page ''
-step 8: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'
-step 9: Click on link 'Binance Labs' -> Navigate to page 'investors/binance-labs'
-step 10: Take full page screenshot as checkpoint",High
-3,Verify Information for A16z Andreessen Horowitz on Polychain Capital Investors Page,Navigate to the home page and access the investors section. Select A16z Andreessen Horowitz from the list of investors and verify the displayed information.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'
-step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to page 'investors/polychain-capital && investors/*'
-step 4: Click on button '2'
-step 5: Click on button 'Search\n/' -> Navigate to page 'investors/*'
-step 6: Take full page screenshot as checkpoint",Low
-4,Verify Portfolio Information for Polychain Capital Investors,Navigate to the home page and access the investors section. Select Polychain Capital from the list of investors and verify the displayed portfolio information.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'
-step 3: Click on link 'a16z (Andreessen Horowitz)' -> Navigate to page 'investors/polychain-capital && investors/*'
-step 4: Click on link 'investor-tabs-item-portfolio' -> Navigate to page 'investors/polychain-capital/portfolio'
-step 5: Take full page screenshot as checkpoint",Trivial
+2,Verify Insights and Exchanges on Page Insights Vesting,Navigate to the insights vesting page and access exchanges and NFT information. Verify the content and functionality of the insights vesting page.,"step 1: Navigate to https://dropstab.com/insights/vesting
+step 2: Click on link 'Exchanges' -> Navigate to page 'exchanges/all'
+step 3: Click on link 'NFT' -> Navigate to page 'insights/vesting'
+step 4: Take full page screenshot as checkpoint",Trivial
