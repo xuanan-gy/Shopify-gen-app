@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -105,29 +105,29 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/tab/aird
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_airdrops/hyperlink_top_gainers'))
 
-"Step 11: Click on button"
+"Step 11: Click on div"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tab_top-gainers/button_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tab_top-gainers/div_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/tab/top-gainers?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_top-gainers/button_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_top-gainers/div_object'))
 
-"Step 12: Click on button 'Currency\nEUR'"
+"Step 12: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tab_top-gainers/button_currency_eur'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tab_top-gainers/hyperlink_token_unlocks'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/tab/top-gainers?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_top-gainers/button_currency_eur'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_top-gainers/hyperlink_token_unlocks'))
 
 "Step 13: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Functionality on Page Home_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Insights Vesting Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

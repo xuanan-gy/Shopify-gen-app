@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -35,9 +35,29 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/exchange
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_exchanges_all/hyperlink_nft'))
 
-"Step 4: Take full page screenshot as checkpoint"
+"Step 4: Click on link 'OP\nOptimism' -> Navigate to page 'tab/airdrops'"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Insights and Exchanges on Page Insights Vesting_visual_checkpoint')
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_insights_vesting/hyperlink_op_optimism'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/insights/vesting?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_insights_vesting/hyperlink_op_optimism'))
+
+"Step 5: Click on link 'NFT' -> Navigate to page 'nft'"
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_tab_airdrops/hyperlink_nft'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/tab/airdrops?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_tab_airdrops/hyperlink_nft'))
+
+"Step 6: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify NFT Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
