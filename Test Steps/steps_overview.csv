@@ -1,5 +1,51 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Top Gainers Page,Navigate to the home page and access the top gainers section. Verify the displayed content on the top gainers page.,"step 1: Navigate to https://dropstab.com/
+1,Verify Navigation to Arbitrum Coin Page,Navigate to the home page and access the Arbitrum coin page. Verify the displayed Arbitrum coin page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'
+step 10: Click on link 'SKL\nSKALE' -> Navigate to page 'coins/skale/vesting'
+step 11: Click on button 'Search\n/' -> Navigate to page 'coins/arbitrum'
+step 12: Take full page screenshot as checkpoint",High
+2,Verify Vesting Insights Page,Navigate to the home page and access the vesting insights page. Verify the displayed vesting insights page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'
+step 10: Click on button 'Search\n/'
+step 11: Click on input field 'search'
+step 12: Take full page screenshot as checkpoint",High
+3,Verify Skale Vesting on Arbitrum Coin Page,Navigate to the home page and access the Skale vesting section on the Arbitrum coin page. Verify the displayed Skale vesting on the Arbitrum coin page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'
+step 10: Click on link 'SKL\nSKALE' -> Navigate to page 'coins/arbitrum/vesting'
+step 11: Take full page screenshot as checkpoint",High
+4,Verify Vesting Insights Page with Menu Trigger,Navigate to the home page and access the vesting insights page. Verify the displayed vesting insights page with the menu trigger.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'
+step 10: Click on button 'menu-trigger-coins-vesting-controls-platforms'
+step 11: Take full page screenshot as checkpoint",High
+5,Verify Top Gainers Tab,Navigate to the home page and access the top gainers tab. Verify the displayed top gainers tab.,"step 1: Navigate to https://dropstab.com/
 step 2: Click on button 'Search\n/'
 step 3: Click on div
 step 4: Click on input field 'search'
@@ -12,7 +58,7 @@ step 10: Click on link '\U0001f680\nTop Gainers' -> Navigate to page 'tab/top-ga
 step 11: Click on button
 step 12: Click on button 'Currency\nEUR'
 step 13: Take full page screenshot as checkpoint",High
-2,Verify Insights Vesting Page,Navigate to the home page and access the insights vesting section. Verify the displayed content on the insights vesting page.,"step 1: Navigate to https://dropstab.com/
+6,Verify Vesting Insights Page with Token Unlocks,Navigate to the home page and access the vesting insights page. Verify the displayed vesting insights page with token unlocks.,"step 1: Navigate to https://dropstab.com/
 step 2: Click on button 'Search\n/'
 step 3: Click on div
 step 4: Click on input field 'search'
@@ -25,7 +71,28 @@ step 10: Click on link '\U0001f680\nTop Gainers' -> Navigate to page 'tab/top-ga
 step 11: Click on div
 step 12: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'
 step 13: Take full page screenshot as checkpoint",High
-3,Verify Home Page,Navigate to the home page and verify the displayed content on the home page.,"step 1: Navigate to https://dropstab.com/
+7,Verify Cardano Coin Page,Navigate to the home page and access the Cardano coin page. Verify the displayed Cardano coin page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on section
+step 10: Click on button 'Search\n/' -> Navigate to page 'coins/cardano'
+step 11: Take full page screenshot as checkpoint",High
+8,Verify Altlayer Fundraising Page,Navigate to the home page and access the Altlayer fundraising page. Verify the displayed Altlayer fundraising page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link
+step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
+step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
+step 5: Click on button 'Market'
+step 6: Click on div
+step 7: Click on link  -> Navigate to page ''
+step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'
+step 9: Click on link 'coin-tabs-item-fundraising' -> Navigate to page 'coins/altlayer/fundraising'
+step 10: Take full page screenshot as checkpoint",High
+9,Verify Home Page,Navigate to the home page. Verify the displayed home page.,"step 1: Navigate to https://dropstab.com/
 step 2: Click on link
 step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
 step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
@@ -36,22 +103,24 @@ step 8: Click on button
 step 9: Click on button
 step 10: Click on button
 step 11: Take full page screenshot as checkpoint",Low
-4,Verify Cardano Page,Navigate to the home page and access the Cardano section. Verify the displayed content on the Cardano page.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on link
-step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'
-step 4: Click on link 'Featured Round\nEigenLayer\xa0\nFunds Raised\n\U0001f4b0$100.00\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'
-step 5: Click on button 'Market'
-step 6: Click on div
-step 7: Click on link  -> Navigate to page ''
-step 8: Click on link '8\nADA\nCardano' -> Navigate to page 'coins/cardano'
-step 9: Take full page screenshot as checkpoint",Low
-5,Verify NFT Page,Navigate to the insights vesting page and access the NFT section. Verify the displayed content on the NFT page.,"step 1: Navigate to https://dropstab.com/insights/vesting
+10,Verify Performance Tab on Altlayer Vesting Page,Navigate to the Altlayer vesting page and access the performance tab. Verify the displayed performance tab on the Altlayer vesting page.,"step 1: Navigate to https://dropstab.com/coins/altlayer/vesting
+step 2: Click on button 'Investors\nUnlocked\xa0\n0\xa0ALT\n/\xa01.85\xa0B\xa0ALT\nValue Locked\n$894.64\xa0M'
+step 3: Click on button 'Protocol Development\nUnlocked\xa0\n340.73\xa0M\xa0ALT\n/\xa02.00\xa0B\xa0ALT\nValue Locked\n$796.35\xa0M'
+step 4: Click on button 'Treasury\nUnlocked\xa0\n51.57\xa0M\xa0ALT\n/\xa02.15\xa0B\xa0ALT\nValue Locked\n$1.01\xa0B'
+step 5: Click on button 'Advisors\nUnlocked\xa0\n0\xa0ALT\n/\xa0500.00\xa0M\xa0ALT\nValue Locked\n$241.80\xa0M'
+step 6: Click on button 'Advisors\nUnlocked\xa0\n0\xa0ALT\n/\xa0500.00\xa0M\xa0ALT\nValue Locked\n$241.80\xa0M'
+step 7: Click on button 'Team\nUnlocked\xa0\n0\xa0ALT\n/\xa01.50\xa0B\xa0ALT\nValue Locked\n$719.91\xa0M'
+step 8: Click on button 'Investors\nUnlocked\xa0\n0\xa0ALT\n/\xa01.85\xa0B\xa0ALT\nValue Locked\n$894.64\xa0M'
+step 9: Click on link '\U0001fa82\nPotential Airdrop' -> Navigate to page 'tab/airdrops'
+step 10: Click on link 'customize-presets-item-R3ZKHbqEVzhchqfCcH8EW-5448' -> Navigate to page 'tab/performance && tab/fdv'
+step 11: Take full page screenshot as checkpoint",Trivial
+11,Verify NFT Page,Navigate to the vesting insights page and access the NFT page. Verify the displayed NFT page.,"step 1: Navigate to https://dropstab.com/insights/vesting
 step 2: Click on link 'Exchanges' -> Navigate to page 'exchanges/all'
 step 3: Click on link 'NFT' -> Navigate to page 'insights/vesting'
 step 4: Click on link 'OP\nOptimism' -> Navigate to page 'tab/airdrops'
 step 5: Click on link 'NFT' -> Navigate to page 'nft'
 step 6: Take full page screenshot as checkpoint",Trivial
-6,Verify Investors Page,Navigate to the insights vesting page and access the investors section. Verify the displayed content on the investors page.,"step 1: Navigate to https://dropstab.com/insights/vesting
+12,Verify Investors Page,Navigate to the vesting insights page and access the investors page. Verify the displayed investors page.,"step 1: Navigate to https://dropstab.com/insights/vesting
 step 2: Click on link '\U0001fa82\nPotential Airdrop' -> Navigate to page 'tab/airdrops'
 step 3: Click on link 'Investors & VCs\nNew' -> Navigate to page 'investors'
 step 4: Click on button 'insights-fundraising-controls-filters-exchanges'

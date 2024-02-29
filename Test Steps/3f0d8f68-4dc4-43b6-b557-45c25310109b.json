@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://dropstab.com/",
+        "step 2: Click on link",
+        "step 3: Click on link 'Funding Rounds' -> Navigate to page 'insights/latest-fundraising-rounds'",
+        "step 4: Click on link 'Featured Round\\nEigenLayer\\xa0\\nFunds Raised\\n\\U0001f4b0$100.00\\xa0M' -> Navigate to page 'coins/eigenlayer-ico/fundraising'",
+        "step 5: Click on button 'Market'",
+        "step 6: Click on div",
+        "step 7: Click on link  -> Navigate to page ''",
+        "step 8: Click on link '8\\nADA\\nCardano' -> Navigate to page 'coins/altlayer && coins/cardano'",
+        "step 9: Click on link 'Token Unlocks' -> Navigate to page 'insights/vesting'",
+        "step 10: Click on button 'menu-trigger-coins-vesting-controls-platforms'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
