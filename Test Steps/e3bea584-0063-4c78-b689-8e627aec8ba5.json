@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://dropstab.com/",
+        "step 2: Click on link '\\U0001fa82\\nPotential Airdrop' -> Navigate to page 'tab/airdrops'",
+        "step 3: Click on link 'Accumulation' -> Navigate to page 'insights/accumulation-phase'",
+        "step 4: Click on button 'Search\\n/'",
+        "step 5: Click on input field 'search' -> Navigate to page 'coins/biconomy'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
