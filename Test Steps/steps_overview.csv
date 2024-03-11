@@ -1,10 +1,9 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Airdrop Potential and Accumulation Insights,Navigate to the Airdrops tab and access the Accumulation phase insights. Perform a search and verify the displayed information on the Biconomy coins page.,"step 1: Navigate to https://dropstab.com/
-step 2: Click on link '\U0001fa82\nPotential Airdrop' -> Navigate to page 'tab/airdrops'
-step 3: Click on link 'Accumulation' -> Navigate to page 'insights/accumulation-phase'
-step 4: Click on button 'Search\n/'
-step 5: Click on input field 'search' -> Navigate to page 'coins/biconomy'
-step 6: Take full page screenshot as checkpoint",High
-2,Verify Search Functionality on Nfprompt Coins Page,Navigate to the Nfprompt coins page and perform a search. Verify the displayed information on the Nfprompt coins page.,"step 1: Navigate to https://dropstab.com/coins/nfprompt
-step 2: Click on button 'Search\n/'
-step 3: Take full page screenshot as checkpoint",Trivial
+1,Verify Access to Bitcoin Information on Airdrops Page,Navigate to the home page and access the potential airdrop tab. Customize presets and view the Bitcoin information. Verify the Bitcoin information page.,"step 1: Navigate to https://dropstab.com/
+step 2: Click on link 'Investors & VCs\nNew'
+step 3: Click on link '\U0001fa82\nPotential Airdrop' -> Navigate to page 'tab/airdrops'
+step 4: Click on link 'Categories'
+step 5: Click on link 'customize-presets-item-R3ZKHbqEVzhchqfCcH8EW-5448' -> Navigate to page 'tab/fdv'
+step 6: Click on button  -> Navigate to page 'tab/fdv && tab/top-gainers && tab/*'
+step 7: Click on link  -> Navigate to page 'coins/bitcoin'
+step 8: Take full page screenshot as checkpoint",Trivial
